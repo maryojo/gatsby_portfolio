@@ -1,19 +1,16 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import Layout from '../../components/layout'
+import BannerLanding from '../../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic09 from '../../assets/images/pic09.jpg'
 
-// const Blogpage = (props) => (
-const Blog = ({data}) => (
+const BlogPage = ({data}) => (
 
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Blog - MaryOjo</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
@@ -24,7 +21,7 @@ const Blog = ({data}) => (
             {
                 data.allHashNodePost.edges.map((edge) => (
                     <section>
-                    <Link to="/generic" className="image">
+                    <Link to={`/blogs/${edge.node.slug}`} className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
@@ -34,7 +31,7 @@ const Blog = ({data}) => (
                             </header>
                             <p>{edge.node.brief}</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Read more</Link></li>
+                                <li><Link to={`/blogs/${edge.node.slug}`} className="button">Read more</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -64,4 +61,4 @@ export const query = graphql`
   
   `
 
-export default Blog
+export default BlogPage
