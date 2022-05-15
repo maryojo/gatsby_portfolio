@@ -19,19 +19,19 @@ const BlogPage = ({data}) => (
         <div id="main">
             <section id="two" className="spotlights">
             {
-                data.allHashNodePost.edges.map((edge) => (
+                data.allHashNodePost.nodes.map((node) => (
                     <section>
-                    <Link to={`/blogs/${edge.node.slug}`} className="image">
+                    <Link to={`/blog/${node.slug}`} className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>{edge.node.title}</h3>
+                                <h3>{node.title}</h3>
                             </header>
-                            <p>{edge.node.brief}</p>
+                            <p>{node.brief}</p>
                             <ul className="actions">
-                                <li><Link to={`/blogs/${edge.node.slug}`} className="button">Read more</Link></li>
+                                <li><Link to={`/blog/${node.slug}`} className="button">Read more</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -47,18 +47,18 @@ const BlogPage = ({data}) => (
 )
 
 export const query = graphql`
-  query {
+  query  {
     allHashNodePost {
-      edges {
-        node {
-          brief
-          slug
-          title
+      nodes {
+        childMdx {
+          body
         }
+        title
+        slug
+        brief
       }
     }
-  }
-  
+  }  
   `
 
 export default BlogPage

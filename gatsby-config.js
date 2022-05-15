@@ -16,7 +16,7 @@ module.exports = {
     //     path: `${__dirname}/blog`,
     //   },
     // },
-    `gatsby-plugin-mdx`,
+    // `gatsby-plugin-mdx`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -42,6 +42,19 @@ module.exports = {
       options: {
         username: "maryojo",
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+            },
+          },
+        ],
+      },
+    },
   ],
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import Markdown from './markdown'
 // import { MDXRenderer } from 'gatsby-plugin-mdx'
 // import { MDXProvider } from "@mdx-js/react"
 
@@ -22,7 +23,7 @@ const BlogPost = ({data}) => (
                         <h1>{data.hashNodePost.title}</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>{data.hashNodePost.childMdx}</p>
+                    <Markdown>{data.hashNodePost.childMdx.body}</Markdown>
                 </div>
             </section>
         </div>
@@ -32,9 +33,11 @@ const BlogPost = ({data}) => (
 
 export const query = graphql`
   query {
-    hashNodePost(childMdx: {rawBody: {ne: " "}}) {
+    hashNodePost {
+      childMdx {
+        body
+      }
       title
-      slug
     }
   }
   `
