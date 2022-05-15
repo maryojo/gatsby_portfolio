@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import resume from '../assets/files/resume.pdf'
 
 const About = (props) => (
     <Layout>
@@ -23,7 +24,7 @@ const About = (props) => (
                         <div className='col-12'>
                         <p><span className="image left"><img src={pic09} alt="" /></span><blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
                         <ul className="actions">
-                            <li><a href="#one" className="button icon fa-download">View resume</a></li>
+                            <li><a href={resume} className="button icon fa-download" target="_blank">View resume</a></li>
                         </ul>
                         </p>
 
