@@ -24,7 +24,7 @@ const About = (props) => (
                         <div className='col-12'>
                         <p><span className="image left"><img src={pic09} alt="" /></span><blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
                         <ul className="actions">
-                            <li><a href={resume} className="button icon fa-download" target="_blank">View resume</a></li>
+                            <li><a href={resume} className="button icon fa-eye" target="_blank">View resume</a></li>
                         </ul>
                         </p>
 
