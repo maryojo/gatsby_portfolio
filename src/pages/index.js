@@ -17,9 +17,9 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Mary Ojo"
                     meta={[
-                        { name: 'description', content: 'Sample' },
+                        { name: 'description', content: 'My Portfolio' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
                 >

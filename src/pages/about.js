@@ -10,7 +10,7 @@ import resume from '../assets/files/resume.pdf'
 const About = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>Hi, I'm Mary! - Mary Ojo</title>
             <meta name="description" content="About Page" />
         </Helmet>
 

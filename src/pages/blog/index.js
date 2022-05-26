@@ -10,8 +10,8 @@ const BlogPage = ({data}) => (
 
     <Layout>
         <Helmet>
-            <title>Blog - MaryOjo</title>
-            <meta name="description" content="Landing Page" />
+            <title>Blog - Mary Ojo</title>
+            <meta name="description" content="Blog" />
         </Helmet>
 
         <BannerLanding name="Blog"/>
