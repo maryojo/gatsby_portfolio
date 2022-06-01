@@ -5,21 +5,21 @@ import Thanks from './Thanks';
 
 
 export default function Contact (){
-    const [show, setShow] = React.useState(true);
+    // const [show, setShow] = React.useState(true);
 
-    let content;
-    if (show) {
-      content = <Form setShow={setShow}/>;
-    } else {
-        content = <Thanks/>;
-    }
+    // let content;
+    // if (show) {
+    //   content = <Form/>;
+    // } else {
+    //     content = <Thanks/>;
+    // }
 
     return(
     <section id="contact">
         <div className="inner">
             
             <section>
-            {content}
+            <Form/>
             </section>
             <section className="split">
                 <section>

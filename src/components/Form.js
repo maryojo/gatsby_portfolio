@@ -1,4 +1,7 @@
 import React from 'react'
+import { navigate } from 'gatsby';
+
+
 
 function encode(data) {
     return Object.keys(data)
@@ -6,7 +9,7 @@ function encode(data) {
       .join('&')
   }
 
-export default function Form ({show, setShow}){
+export default function Form (){
     const [state, setState] = React.useState({});
 
     const handleChange = (e) => {
@@ -24,7 +27,7 @@ export default function Form ({show, setShow}){
           ...state,
         }),
       })
-        .then(setShow(false))
+        .then(() => navigate(form.getAttribute('action')))
         .catch((error) => alert(error))
     }
 
@@ -33,7 +36,7 @@ export default function Form ({show, setShow}){
             <header className="major">
                 <h2>Contact me</h2>
             </header>
-            <form name="contact-form-portfolio" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="contact-form-portfolio" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/">
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                     <input type="hidden" name="form-name" value="contact-form-portfolio" />
                     <p hidden>
