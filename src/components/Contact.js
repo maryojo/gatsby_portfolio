@@ -1,31 +1,25 @@
 import React from 'react'
+import Form from './Form';
+import Thanks from './Thanks';
 
-const Contact = (props) => (
+
+
+export default function Contact (){
+    const [show, setShow] = React.useState(true);
+
+    let content;
+    if (show) {
+      content = <Form setShow={setShow}/>;
+    } else {
+        content = <Thanks/>;
+    }
+
+    return(
     <section id="contact">
         <div className="inner">
             
             <section>
-            <header className="major">
-                <h2>Contact me</h2>
-            </header>
-                <form method="post" action="#">
-                    <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div className="field">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
-                    </ul>
-                </form>
+            {content}
             </section>
             <section className="split">
                 <section>
@@ -54,5 +48,5 @@ const Contact = (props) => (
         </div>
     </section>
 )
-
-export default Contact
+}
+// export default Contact
