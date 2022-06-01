@@ -7,7 +7,6 @@ import { MDXProvider } from '@mdx-js/react'
 
 const Markdown = ({ children }) => {
   return (
-    // We add a 'markdown' class so we can apply custom styles
     <div className="markdown">
       <MDXProvider>
         <MDXRenderer>{children}</MDXRenderer>
