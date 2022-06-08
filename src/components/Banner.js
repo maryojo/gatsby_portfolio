@@ -12,7 +12,10 @@ const Banner = (props) => (
             <div className="bannerContent">
                 <p>I'm passionate about designing & developing 
                 <br/>digital experiences that are inclusive,  
-                <br/>and sustainable</p>
+                <br/>and sustainable.
+                <br/>
+                <br/>I am currently working on this.
+                <br/>Check out my other projects below</p>
                 {/* <ul className="actions"> */}
                     {/* <li><a href="/about" className="button next scrolly">Read More</a></li> */}
                 {/* </ul> */}
