@@ -19,7 +19,7 @@ import pic06 from '../assets/images/pic06.jpg'
 const HomeIndex = () => {
 
     useEffect(()=>{
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 1500 })
       }, [])
 
     // render() {
