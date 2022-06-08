@@ -31,15 +31,15 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Artaine</h3>
+                                <p>UI/UX - Prototyping</p>
                             </header>
                             <Link to="/display" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Cade</h3>
+                                <p>UI/UX - Frontend</p>
                             </header>
                             <Link to="/display" className="link primary"></Link>
                         </article>
@@ -75,9 +75,9 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Design Thoughts</h2>
                             </header>
-                            <blockquote>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</blockquote>
+                            <blockquote>Every great design begins with an even better story." -- Lorinda Mamo, designer</blockquote>
                             {/* <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul> */}
