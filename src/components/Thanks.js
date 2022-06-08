@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './layout'
-import image from '../assets/images/404.png'
+import image from '../assets/images/thanks.png'
 
 const Thanks = () => (
   <Layout>

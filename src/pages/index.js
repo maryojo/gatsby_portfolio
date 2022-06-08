@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
@@ -17,8 +17,9 @@ import pic06 from '../assets/images/pic06.jpg'
 
 
 const HomeIndex = () => {
+
     useEffect(()=>{
-        Aos.init({ duration: 2000})
+        Aos.init({ duration: 2000 })
       }, [])
 
     // render() {
