@@ -12,7 +12,7 @@ import pic11 from '../../assets/images/pic11.jpg'
 const BlogPost = ({data}) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>{data.hashNodePost.title}</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 

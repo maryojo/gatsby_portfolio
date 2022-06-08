@@ -36,7 +36,7 @@ export default function Form (){
             <header className="major">
                 <h2>Contact me</h2>
             </header>
-            <form name="contact-form-portfolio" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/Thanks">
+            <form name="contact-form-portfolio" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                     <input type="hidden" name="form-name" value="contact-form-portfolio" />
                     <p hidden>

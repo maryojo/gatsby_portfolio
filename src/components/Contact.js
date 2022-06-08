@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from './Form';
-import Thanks from './Thanks';
+import Thanks from '../pages/thanks';
 
 
 
