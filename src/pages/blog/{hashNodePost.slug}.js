@@ -32,14 +32,27 @@ const BlogPost = ({data}) => (
 )
 
 export const query = graphql`
-  query {
-    hashNodePost {
+  query ($id: String) {
+    hashNodePost(id: {eq: $id}){
       childMdx {
         body
+        id
       }
       title
     }
   }
   `
+
+//   export const query = graphql`
+//   query ($id: String) {
+//     mdx(id: {eq: $id}) {
+//       frontmatter {
+//         title
+//         date(formatString: "MMMM D, YYYY")
+//       }
+//       body
+//     }
+//   }
+// `
 
 export default BlogPost
