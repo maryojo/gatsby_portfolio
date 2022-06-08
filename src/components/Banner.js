@@ -13,9 +13,9 @@ const Banner = (props) => (
                 <p>I'm passionate about designing & developing 
                 <br/>digital experiences that are inclusive,  
                 <br/>and sustainable</p>
-                <ul className="actions">
-                    <li><a href="/about" className="button next scrolly">Read More</a></li>
-                </ul>
+                {/* <ul className="actions"> */}
+                    {/* <li><a href="/about" className="button next scrolly">Read More</a></li> */}
+                {/* </ul> */}
             </div>
         </div>
     </section>
