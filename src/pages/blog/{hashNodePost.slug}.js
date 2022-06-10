@@ -18,7 +18,7 @@ const BlogPost = ({data}) => (
 
         <div id="main" className="alt">
             <section id="one">
-                <div className="inner">
+                <div className="inner blogpost">
                     <header className="major">
                         <h1>{data.hashNodePost.title}</h1>
                     </header>
@@ -42,17 +42,5 @@ export const query = graphql`
     }
   }
   `
-
-//   export const query = graphql`
-//   query ($id: String) {
-//     mdx(id: {eq: $id}) {
-//       frontmatter {
-//         title
-//         date(formatString: "MMMM D, YYYY")
-//       }
-//       body
-//     }
-//   }
-// `
 
 export default BlogPost
