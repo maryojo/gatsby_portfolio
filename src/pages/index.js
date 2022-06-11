@@ -7,7 +7,7 @@ import Banner from '../components/Banner'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/screens1.png'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'

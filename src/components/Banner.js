@@ -6,13 +6,12 @@ const Banner = (props) => (
         <div className="inner">
             <header className="content">
                 <h1>Hi, I'm Mary 
-                <img src={hand}  width={100}/>
+                <img src={hand} className="hand"/>
                 </h1>
             </header>
             <div className="bannerContent">
-                <p>I'm passionate about designing & developing 
-                <br/>digital experiences that are inclusive,  
-                <br/>and sustainable.
+                <p>I'm passionate about designing & developing digital 
+                <br/>experiences that are inclusive and sustainable.
                 <br/>
                 <br/>I am currently working on this.
                 <br/>Check out my other projects below</p>

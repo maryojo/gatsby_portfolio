@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import logo from '../assets/images/myicon.png'
+import logo from '../assets/images/logo.png'
 
 
 const Header = (props) => (
     <header id="header" className="alt">
         <div className='logo'>
         <Link to="/">
-          <img src={logo} height={45}/>
+          <img src={logo} className="logoClass"/>
         </Link>
         </div>
        
