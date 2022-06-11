@@ -4,6 +4,7 @@ import ReactTooltip from 'react-tooltip'
 import Layout from '../components/layout'
 
 import pic08 from '../assets/images/pic08.jpg'
+import pic01 from '../assets/images/ITpic2.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import resume from '../assets/files/resume.pdf'

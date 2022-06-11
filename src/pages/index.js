@@ -43,42 +43,42 @@ const HomeIndex = () => {
                                 <h3>Artaine</h3>
                                 <p>UI/UX - Prototyping</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up"  style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Cade</h3>
                                 <p>UI/UX - Frontend</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up" style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>My Spaces</h3>
+                                <p>UI/UX - Prototyping</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up" style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Netflix Clone</h3>
+                                <p>Frontend</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up" style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Notted</h3>
+                                <p>UI/UX - Frontend</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            <Link to="#" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up"  style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Signify</h3>
+                                <p>UI/UX</p>
                             </header>
-                            <Link to="/display" className="link primary"></Link>
+                            {/* <Link to="/display" className="link primary"></Link> */}
                         </article>
                     </section>
                     <section id="two">
