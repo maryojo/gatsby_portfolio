@@ -24,7 +24,7 @@ const About = (props) => (
                     </header>
                     <div className='grid-wrapper'>
                         <div className='col-12'>
-                        <p><span className="image left"><img src={pic09} alt="" /></span><blockquote>Hi, I'm Mary. I love to design and develop inclusive digital experiences. I love to solve problems around me using Technology. I'm a recent graduate of Computer Science and also a Microsoft Learn Student Ambassador.</blockquote>
+                        <p><span className="image left"><img src={pic09} alt="" /></span>Hi, I'm Mary. I love to design and develop inclusive digital experiences. I love to solve problems around me using Technology....
                         <ul className="actions">
                             <li><a href={resume} className="button icon fa-eye" target="_blank">View resume</a></li>
                         </ul>
