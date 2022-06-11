@@ -27,7 +27,7 @@ const BlogPage = ({data}) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>{node.title}</h3>
+                                <h3>{node.title.split("").slice(0,27)}</h3>
                             </header>
                             <p>{node.brief}</p>
                             <ul className="actions">

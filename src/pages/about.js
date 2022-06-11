@@ -48,9 +48,9 @@ const About = (props) => (
                                         <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
                                         <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
                                         <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
+                                        {/* <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
                                         <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div> */}
                                     </div>
                                     <h3>My Skills</h3>
                                     <div className="grid-wrapper skills"> 
