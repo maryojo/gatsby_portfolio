@@ -34,8 +34,16 @@
 
 @media screen and (min-width: 1141px) {
 
-	// .grid-wrapper {
-	// 	grid-gap: 0 3em;
-	// }
+	.grid-wrapper {
+		grid-gap: 0 3em;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.skills {
+		grid-template-columns: repeat(4, 1fr);
+	}
 
 }
