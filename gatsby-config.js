@@ -3,7 +3,7 @@ module.exports = {
     title: `My Personal Portfolio`,
     description: `My personal portfolio built with Gatsby`,
     author: `maryojo`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://www.maryojo.me`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
