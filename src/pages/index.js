@@ -84,7 +84,7 @@ const HomeIndex = () => {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Design Thoughts</h2>
+                                <h2>Thoughts</h2>
                             </header>
                             <blockquote>Every great design begins with an even better story." -- Lorinda Mamo, designer</blockquote>
                             {/* <ul className="actions">
