@@ -7,6 +7,7 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic01 from '../assets/images/ITpic2.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import mypic from '../assets/images/Mary.jpg'
 import resume from '../assets/files/resume.pdf'
 
 const About = (props) => (
@@ -24,7 +25,7 @@ const About = (props) => (
                     </header>
                     <div className='grid-wrapper'>
                         <div className='col-12'>
-                        <p><span className="image left"><img src={pic09} alt="" /></span>Hi, I'm Mary. I love to design and develop inclusive digital experiences. I love to solve problems around me using Technology....
+                        <p><span className="image left"><img src={mypic} alt="" /></span>Hi, I'm Mary. I love to design and develop inclusive digital experiences. I love to solve problems around me using Technology....
                         <ul className="actions">
                             <li><a href={resume} className="button icon fa-eye" target="_blank">View resume</a></li>
                         </ul>
@@ -37,7 +38,7 @@ const About = (props) => (
 
                     <div className="grid-wrapper">
                         <div className="col-12">
-                            <h3>Picture Stories</h3>
+                            <h3>My Feed</h3>
                             {/* <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> */}
                         </div>
                         </div>
