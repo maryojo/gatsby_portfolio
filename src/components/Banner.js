@@ -11,7 +11,7 @@ const Banner = (props) => (
             </header>
             <div className="bannerContent">
                 <p>I'm passionate about designing & developing digital 
-                <br/>experiences that are inclusive and sustainable.
+                <br/>experiences that are inclusive, sustainable and human centered.
                 <br/>
                 <br/>I am currently working on this.
                 <br/>Check out my other projects below</p>
