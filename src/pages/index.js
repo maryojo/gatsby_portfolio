@@ -10,9 +10,11 @@ import 'aos/dist/aos.css'
 import pic01 from '../assets/images/screens1.png'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+// import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+
+import pic04 from '../assets/images/netflix-cover.jpg'
 
 
 
@@ -64,7 +66,7 @@ const HomeIndex = () => {
                                 <h3>Netflix Clone</h3>
                                 <p>Frontend</p>
                             </header>
-                            <Link to="#" className="link primary"></Link>
+                            <a rel="noreferrer" href="https://sprightly-torrone-a6b3ec.netlify.app/" target="_blank" className="link primary"></a>
                         </article>
                         <article data-aos="fade-up" style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
