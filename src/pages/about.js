@@ -24,26 +24,28 @@ const About = (props) => (
                         <h1>Meet Me</h1>
                     </header>
                     <div className='grid-wrapper'>
-                        <div className='col-12'>
-                        <p><span className="image left"><img src={mypic} alt="" /></span>Hi, I'm Mary. I love to design and develop inclusive digital experiences. I love to solve problems around me using Technology....
-                        <ul className="actions">
-                            <li><a href={resume} className="button icon fa-eye" target="_blank">View resume</a></li>
-                        </ul>
-                        </p>
-
+                        <div className='col-12 layout1 '>
+                            <div className="image left mypic"><img className="pic" src={mypic} alt="" /></div>
+                            <div>
+                            <p className='intro'>Hi, I'm Mary. I am a recent graduate of Computer Science with Economics. In the past few years, I have gained project and internship experience in the field of Software Engineering, Human Computer Interaction and High Performance Computing. I love to design and develop inclusive digital experiences. I love to learn and explore new things in Tech and I also love to solve problems around me using my skills.
+                            </p>
+                            <ul className="actions">
+                                <li><a href={resume} className="button icon fa-eye" target="_blank">View resume</a></li>
+                            </ul>
+                            </div>
+                       
                         </div>
-                        
                     </div>
                     <div> </div>
 
                     <div className="grid-wrapper">
                         <div className="col-12">
-                            <h3>My Feed</h3>
                             {/* <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> */}
                         </div>
                         </div>
                         <div className="box alt">
-                                    <div className="grid-wrapper">
+                        <h3>My Activity Feed</h3>
+                                    <div className="grid-gallery">
                                         <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
                                         <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
                                         <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>

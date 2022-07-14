@@ -25,3 +25,36 @@
 			margin-top: 2em;
 		}
 	}
+
+	
+	.layout1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mypic {
+		max-width: 100% !important;
+		
+		}
+
+		@media screen and (max-width: 980px) {
+			.pic{
+				max-height: 60vh;
+				object-position:center;
+				object-fit: cover;
+			}
+		}
+
+
+	@media screen and (min-width: 981px) {
+		.layout1{
+			display: flex;
+			flex-direction: row;
+		}
+
+		.mypic {
+			max-width: 30% !important;
+			}
+			
+
+	}
