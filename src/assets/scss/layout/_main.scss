@@ -37,6 +37,26 @@
 		
 		}
 
+	.small-icon{
+		width: 24px;
+		height: 24px;
+		
+	}
+
+	.skillset{
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+	}
+
+	.skilllist{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		// display: flex;
+		// flex-direction: row;
+	}
+
 		@media screen and (max-width: 980px) {
 			.pic{
 				max-height: 60vh;
@@ -59,3 +79,4 @@
 			
 
 	}
+
