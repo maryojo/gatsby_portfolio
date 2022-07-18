@@ -57,6 +57,48 @@
 		// flex-direction: row;
 	}
 
+	.process{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.projectdetails{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+		.project{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+	
+	
+
+
+	.top{
+		text-align: center;
+	}
+
+	.displaybuttons{
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.processlist{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.eachprocess{
+		padding: 30px;
+	}
+
 		@media screen and (max-width: 980px) {
 			.pic{
 				max-height: 60vh;

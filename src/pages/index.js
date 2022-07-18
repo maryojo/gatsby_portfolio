@@ -45,14 +45,14 @@ const HomeIndex = () => {
                                 <h3>Artaine</h3>
                                 <p>UI/UX - Prototyping</p>
                             </header>
-                            <Link to="#" className="link primary"></Link>
+                            <Link to="/casestudy" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up"  style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Cade</h3>
                                 <p>UI/UX - Frontend</p>
                             </header>
-                            <Link to="#" className="link primary"></Link>
+                            <Link to="/casestudy" className="link primary"></Link>
                         </article>
                         <article data-aos="fade-up" style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
